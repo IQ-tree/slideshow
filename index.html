@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main {
+            background-color: rgb(226, 226, 226);
+        }
+        #prev {
+            background: image("/slideshow/prev.png");
+        }
+        #next {
+            background: image("/slideshow/next.png");
+        }
+    </style>
+</head>
+<body>
+    <!--프레임-->
+    <div id="main">
+        <div imageholder>
+            <img id="main_image" src="/slideshow/images/1.jpg" alt="image">
+        </div>
+        <div menu>
+            <div id="prev"></div>
+            <div id="next"></div>
+        </div>
+    </div>
+</body>
+</html>
